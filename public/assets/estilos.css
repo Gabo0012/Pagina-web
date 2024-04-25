@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(
+        180deg,
+        rgb(110, 109, 112) 0%,
+        rgb(12, 11, 14) 100%,);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(14, 12, 12);
+}
+
+form {
+    background-image: url(https://i.postimg.cc/Hxc8JyB2/Fondo.jpge);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 420px;
+    height: 700px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.form-loging {
+    padding-top: 120px;
+}
+
+form img{
+    width: 70px;
+    margin-bottom: 25px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container > i {
+    padding: 14px;
+    border-radius: 50%;
+    background: linear-gradient(
+        90deg,
+        rgba(249,94,49,1) 0%,
+        rgba(241,169,17,1) 100%,);
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 20px;
+    top: 7px;
+    right: 8px;
+}
+
+.input-container > input {
+    padding: 20px 50px 20px 15px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 35px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    font-size: 17px;
+    outline: none;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+form a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+form a:hover {
+    color: lightskyblue;
+}
+
+.btn {
+    background: linear-gradient(
+        90deg,
+        rgba(247,9,49,1) 0%,
+        rgba(241,169,17,1) 100%,);
+        padding: 14px 75px;
+        border: 0;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        border-radius: 25px;
+        color: #ffffff;
+        font-size: 17px;
+        cursor: pointer;
+        margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: red;
+    color:white;
+}
+
